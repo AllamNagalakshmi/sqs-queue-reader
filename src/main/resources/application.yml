@@ -1,0 +1,2 @@
+queue-url: https://sqs.us-east-1.amazonaws.com/423242953366/queue-v1
+topic-arn: arn:aws:sns:us-east-1:423242953366:topic-1

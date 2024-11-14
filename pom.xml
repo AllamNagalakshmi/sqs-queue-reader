@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <artifactId>sqs-queue-reader</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.springframework.boot</groupId>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>org.springframework.boot</groupId>
+        </dependency>
+        <dependency>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <artifactId>lombok</artifactId>
+            <groupId>org.projectlombok</groupId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.awspring.cloud/spring-cloud-aws-starter-sqs -->
+        <dependency>
+            <artifactId>spring-cloud-aws-starter-sqs</artifactId>
+            <groupId>io.awspring.cloud</groupId>
+            <version>3.2.1</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/com.networknt/json-schema-validator -->
+        <dependency>
+            <artifactId>json-schema-validator</artifactId>
+            <groupId>com.networknt</groupId>
+            <version>1.4.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/sns -->
+        <dependency>
+            <artifactId>sns</artifactId>
+            <groupId>software.amazon.awssdk</groupId>
+            <version>2.29.11</version>
+        </dependency>
+
+
+    </dependencies>
+    <description>Demo project for Spring Boot</description>
+    <developers>
+        <developer/>
+    </developers>
+    <groupId>com.example</groupId>
+    <licenses>
+        <license/>
+    </licenses>
+    <modelVersion>4.0.0</modelVersion>
+    <name>demo</name>
+    <parent>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <relativePath/>
+        <version>3.3.5</version> <!-- lookup parent from repository -->
+    </parent>
+    <properties>
+        <java.version>23</java.version>
+    </properties>
+    <scm>
+        <connection/>
+        <developerConnection/>
+        <tag/>
+        <url/>
+    </scm>
+    <url/>
+
+    <version>0.0.1-SNAPSHOT</version>
+
+</project>
